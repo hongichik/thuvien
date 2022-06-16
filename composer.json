@@ -12,5 +12,16 @@
         "psr-4": {
             "MyVendor\\Contactform\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MyVendor\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
 }
