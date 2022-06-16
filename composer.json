@@ -5,7 +5,9 @@
         "name": "samuel ogundipe",
         "email": "email@email.com"
     }],
-    "require": {},
+    "require": {
+         "rachidlaasri/laravel-installer": "^4.1"
+    },
     "autoload": {
         "psr-4": {
             "MyVendor\\Contactform\\": "src/"
